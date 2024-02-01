@@ -1,0 +1,60 @@
+.TeamSection{
+    background-image: url(bgimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.places{
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    
+}
+
+.link{
+
+    color: #FFF;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+
+
+}
+.link a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+.TeamSection button{
+    background-color: transparent;
+    border: none;
+
+    
+}
+
+@media screen and (max-width :420px){
+    .TeamSection{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .places{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .places button{
+        margin-top: 34px;
+    }
+    .link a{
+        font-size: 2.5rem;
+    }
+}

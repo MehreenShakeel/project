@@ -1,0 +1,28 @@
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navBtn{
+    width: 200px;
+    height: 46px;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 25px;
+    border-style: none;
+    background: rgb(0, 173, 181);
+    align-self: center;
+}
+
+
+@media screen and (max-width: 420px){
+   .navBar {
+        display: flex;
+        justify-content: left;
+    }
+    .navBtn{
+        display: none;
+    }
+}

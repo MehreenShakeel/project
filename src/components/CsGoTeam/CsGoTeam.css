@@ -1,0 +1,64 @@
+.CsGoTeam{
+    background: #222831;
+    display: flex;
+    flex-direction: column;
+    padding: 2%; 
+
+}
+
+.players{
+    display: flex;
+    justify-content: space-around;
+
+}
+.players h1{
+    color: #FFF;
+    font-size: 4rem;
+    display: none;
+}
+
+.text h1{
+    color: #FFF;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+hr{
+    width: 70%;
+    width: 80%;
+    height: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#FFF;
+    border: 0 none;
+
+}
+@media screen and (max-width :420px){
+    .CsGoTeam{
+        display: flex;
+        flex-direction: column; 
+        
+    }
+    .players{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .players h1{
+        display: inline-block;
+    }
+    .players img{
+        margin-top: 5%;
+    }
+    .text h1{
+        font-size: 43px;
+        display: none;
+    }
+    hr{
+        display: none;
+    }
+}

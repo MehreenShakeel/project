@@ -1,0 +1,110 @@
+.collection{
+    background-color: #393E46;
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.collectionPara{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-self: end;
+        line-height: 10px;
+    
+}
+
+.collectionPara h1{
+    color: #FFF;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.collectionPara h3{
+    color: #FFF;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.btn{
+    border-radius: 25px;
+    border: none;
+    width: 255px;
+    height: 46px;
+    background: #00ADB5;
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    align-self: baseline;
+    cursor: pointer;
+    
+}
+.btn-Shop{
+    display: none;
+    cursor: pointer;
+}
+
+.image-shirt{
+    display: flex;
+    align-items: flex-end;
+    gap: 1%;
+}
+
+.image-shirt .smallPic{
+    width: 260px;
+    height: 260px; 
+    
+
+ }
+   
+.image-shirt img{
+    width: 474px;
+    height: 476px; 
+}
+
+
+
+@media screen and (max-width :420px) {
+    .collection{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    .collectionPara h1{
+        font-size: 2.5rem;
+    }
+    .collectionPara h3{
+        font-size: 2rem;
+    }
+    .image-shirt {
+        margin-top: 3%;
+    }
+    .image-shirt .largePic{
+        display: none;
+    }
+    .image-shirt .smallPic{
+        width: 40vw;
+        height: 20vh;
+    }
+    .btn{
+        display: none;
+    }
+    .btn-Shop{
+        display: inline;
+        border-radius: 25px;
+        border: none;
+        width: 255px;
+        height: 46px;
+        background: #00ADB5;
+        color: #FFF;
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-top: 2%;
+        /* align-self: baseline; */
+    }
+   
+}
